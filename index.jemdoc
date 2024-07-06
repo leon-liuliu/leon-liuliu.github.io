@@ -2,14 +2,13 @@
 = Liu Liu
 
 ~~~
-{}{img_left}{./photo-me.jpg}{photo}{292px}{318px}{}
+{}{img_left}{./photo-me.jpg}{photo}{292px}{320px}{}
 
 I am currently a Senior Research Scientist at Tencent AI Lab, where I specialize in leveraging advanced AI technologies to enhance the design and performance of decision intelligence systems for real-world applications. 
-My work primarily involves advanced algorithms in AI  and operations research, with applications to smart city. 
+My recent work primarily involves advanced algorithms in reinforcement learning and operations research, with applications to smart city. 
 
 I received PhD in the Department of Electrical and Computer Engineering of The University of Texas at Austin in 2021,
-and I was fortunately advised by [https://caramanis.github.io/ Prof. Constantine Caramanis] in the 
-[http://wncg.org/  Wireless Networking and Communications Group].
+and I was fortunately advised by [https://caramanis.github.io/ Prof. Constantine Caramanis], IEEE Fellow.
 During my PhD, I worked on robust machine learning models and algorithms
 for high-dimensional data analysis.
 
