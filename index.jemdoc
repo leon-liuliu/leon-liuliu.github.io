@@ -2,7 +2,7 @@
 = Liu Liu
 
 ~~~
-{}{img_left}{./photo-me.jpg}{photo}{200px}{295px}{}
+{}{img_left}{./photo-me.jpg}{photo}{292px}{318px}{}
 
 I am currently a senior research scientist at Tencent AI lab. 
 I specialize in the integration of advanced AI
@@ -66,16 +66,9 @@ arXiv preprint arXiv:2007.03572, 2020. \[[https://arxiv.org/abs/2007.03572 Arxiv
 \n
 
 
-
-*Low Rank Matrix Regression under Heavy Tailed Distribution *\n
-*Liu Liu*, Tianyang Li, Constantine Caramanis.\n
-Submitted, 2019.
-
-\n
-
 *High Dimensional Robust M-Estimation: Arbitrary Corruption and Heavy Tails *\n
 *Liu Liu*, Tianyang Li, Constantine Caramanis.\n
-ArXiv preprint arXiv:1901.08237, 2019. \[[http://arxiv.org/abs/1901.08237 Arxiv Link]\] \[[./1901.08237.pdf PDF]\] \[[./Oral_Defense_Slides.pdf Slides]\]
+ArXiv preprint arXiv:1901.08237, 2019. \[[http://arxiv.org/abs/1901.08237 Arxiv Link]\] \[[./Oral_Defense_Slides.pdf Slides]\]
 - *See abstract*
 -- We consider the problem of sparsity-constrained $M$-estimation when both {\em explanatory and response} variables have heavy tails (bounded 4-th moments), or a fraction of arbitrary corruptions. We focus on the $k$-sparse, high-dimensional regime where the number of variables $d$ and the sample size $n$ are related through $n \sim k \log d$. We define a natural condition we call the Robust Descent Condition (RDC), and show that if a gradient estimator satisfies the RDC, then Robust Hard Thresholding (IHT using this gradient estimator), is guaranteed to obtain good statistical rates. The contribution of this paper is in showing that this RDC is a flexible enough concept to recover known results, and obtain new robustness results. Specifically, new results include: (a) For $k$-sparse high-dimensional linear- and logistic-regression with heavy tail (bounded 4-th moment) explanatory and response variables, a linear-time-computable median-of-means gradient estimator satisfies the RDC, and hence Robust Hard Thresholding is minimax optimal; (b) When instead of heavy tails we have $O(1/\sqrt{k}\log(nd))$-fraction of arbitrary corruptions in explanatory and response variables, a near linear-time computable trimmed gradient estimator satisfies the RDC, and hence Robust Hard Thresholding is minimax optimal.
 We demonstrate the effectiveness of our approach in sparse linear, logistic regression, and sparse precision matrix estimation on synthetic and real-world US equities data.
@@ -84,7 +77,7 @@ We demonstrate the effectiveness of our approach in sparse linear, logistic regr
 
 *High Dimensional Robust Sparse Regression*\n
 *Liu Liu*, Yanyao Shen, Tianyang Li, Constantine Caramanis.\n
-AISTATS 2020. \[[https://arxiv.org/abs/1805.11643  Arxiv Link]\] \[[./1805.11643.pdf  PDF]\] \[[./AISTATS_Slides.pdf Slides]\]
+AISTATS 2020. \[[https://arxiv.org/abs/1805.11643  Arxiv Link]\] \[[./AISTATS_Slides.pdf Slides]\]
 - *See abstract*
 -- We provide a novel -- and to the best of our knowledge, the first -- algorithm for high dimensional sparse regression with constant fraction of corruptions in explanatory and/or response variables. Our algorithm recovers the true sparse parameters with sub-linear sample complexity, in the presence of a constant fraction of arbitrary corruptions. Our main contribution is a robust variant of Iterative Hard Thresholding. Using this, we provide accurate estimators: when the covariance matrix in sparse regression is identity,  our error guarantee is near information-theoretically optimal. We then deal with robust sparse regression with unknown structured covariance matrix. We propose a filtering algorithm which consists of a novel randomized outlier removal technique for robust sparse mean estimation that may be of interest in its own right: the filtering algorithm is flexible enough to deal with unknown covariance. Also, it is orderwise more efficient computationally than the ellipsoid algorithm. Using sub-linear sample complexity, our algorithm achieves the best known (and first) error guarantee. 
 We demonstrate the effectiveness on large-scale sparse regression problems with arbitrary corruptions.
@@ -93,7 +86,7 @@ We demonstrate the effectiveness on large-scale sparse regression problems with 
 
 *Statistical inference using SGD*\n
 Tianyang Li, *Liu Liu*, Anastasios Kyrillidis, Constantine Caramanis.\n
-AAAI 2018. \[[https://arxiv.org/abs/1705.07477  Arxiv Link]\] \[[https://arxiv.org/pdf/1705.07477.pdf  PDF]\]
+AAAI 2018. \[[https://arxiv.org/abs/1705.07477  Arxiv Link]\] 
 - *See abstract*
 -- We present a novel method for frequentist statistical inference in M-estimation problems, based on stochastic gradient descent (SGD) with a fixed step size: we demonstrate that the average of such SGD sequences can be used for statistical inference, after proper scaling. An intuitive analysis using the Ornstein-Uhlenbeck process suggests that such averages are asymptotically normal. From a practical perspective, our SGD-based inference procedure is a first order method, and is well-suited for large scale problems. To show its merits, we apply it to both synthetic and real datasets, and demonstrate that its accuracy is comparable to classical statistical methods, while requiring potentially far less computation.
 
@@ -102,7 +95,7 @@ AAAI 2018. \[[https://arxiv.org/abs/1705.07477  Arxiv Link]\] \[[https://arxiv.o
 
 *Approximate Newton-based statistical inference using only stochastic gradients*\n
 Tianyang Li, Anastasios Kyrillidis, *Liu Liu*, Constantine Caramanis.\n
-ArXiv preprint arXiv:1805.08920, 2018. \[[https://arxiv.org/abs/1805.08920  Arxiv Link]\] \[[https://arxiv.org/pdf/1805.08920.pdf  PDF]\]
+ArXiv preprint arXiv:1805.08920, 2018. \[[https://arxiv.org/abs/1805.08920  Arxiv Link]\] 
 - *See abstract*
 -- We present a novel inference framework for convex empirical risk minimization, using approximate stochastic Newton steps. The proposed algorithm is based on the notion of finite differences and allows the approximation of a Hessian-vector product from first-order information. In theory, our method efficiently computes the statistical error covariance in M-estimation, both for unregularized convex learning problems and high-dimensional LASSO regression, without using exact second order information, or resampling the entire data set. In practice, we demonstrate the effectiveness of our framework on large-scale machine learning problems, that go even beyond convexity: as a highlight, our work can be used to detect certain adversarial attacks on neural networks.
 
