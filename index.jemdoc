@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}, addcss{examples.css}, addcss{mktree.css}, nofooter
+# jemdoc: menu{MENU}{index.html}, addcss{jemdoc.css}, addcss{mktree.css}, nofooter
 = Liu Liu
 
 ~~~
@@ -7,8 +7,9 @@
 I am currently a Senior Research Scientist at Tencent AI Lab, where I specialize in leveraging advanced AI technologies to enhance the design and performance of decision intelligence systems for real-world applications. 
 My recent work primarily involves advanced algorithms in reinforcement learning and operations research, with applications to smart city. 
 
-I received PhD in the Department of Electrical and Computer Engineering of The University of Texas at Austin in 2021,
-and I was fortunately advised by [https://caramanis.github.io/ Prof. Constantine Caramanis], IEEE Fellow.
+I received PhD in the Department of Electrical and Computer Engineering of The University of Texas at Austin in 2021, in the track of 
+[https://www.ece.utexas.edu/academics/graduate/tracks/dice Decision, Information, and Communications Engineering].
+I was fortunately advised by [https://caramanis.github.io/ Prof. Constantine Caramanis], IEEE Fellow.
 During my PhD, I worked on robust machine learning models and algorithms
 for high-dimensional data analysis.
 
@@ -24,7 +25,7 @@ I received the B.E. degree in the Department of Electronic Engineering of Tsingh
 == Experience
 
 - 2021-present: *Tencent AI Lab*, Senior Research Scientist \n
-- 2016-2021: *The University of Texas at Austin*, PhD candidate \n
+- 2016-2021: *The University of Texas at Austin*, PhD \n
 - 2012-2016: *Tsinghua University*, Undergraduate \n
 ~~~
 
